@@ -73,3 +73,14 @@ function reset(){
     userSeq=[];
     level=0;
 }
+let help=document.querySelector("p");
+let about=document.getElementById("explain");
+let main=document.getElementsByClassName("main");
+help.addEventListener("click",function(){
+    about.classList.add("help");
+})
+let close=document.querySelector("button");
+close.addEventListener("click",function(){
+ console.log("hjjj");
+ about.classList.remove("help");
+})

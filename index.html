@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simon Game</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Simon Game</h1>
-    <h4></h4>
-    <h2>Press anywhere to start</h2>
-    <div class="main">
-      <div>
-        <div class="btn st"type="button"id="st"></div>
-        <div class="btn nd"type="button"id="nd"></div>
-      </div>
-      <div>
-      <div class="btn rd"type="button"id="rd"></div>
-      <div class="btn th"type="button"id="th"></div>
-      </div>
+  <h1>Simon Game</h1>
+  <h4></h4>
+  <h2>Press anywhere to start</h2>
+  <div class="main">
+    <div>
+      <div class="btn st" type="button" id="st"></div>
+      <div class="btn nd" type="button" id="nd"></div>
     </div>
-     <footer><p>Made by Subham Mandal</p></footer>
-    <script src="script.js"></script>
+    <div>
+      <div class="btn rd" type="button" id="rd"></div>
+      <div class="btn th" type="button" id="th"></div>
+    </div>
+  </div>
+  <div><p><b>Help ?</b></p>
+    <div id="explain"class="ab">
+
+      <b>How to play this game:</b>
+      As this a memorization game, you must have to remember the previous ones' of all the previous levels you have
+      completed successfully under a session.
+      Here you can see 4 different colored square boxes. Now, if you are going to play the game for the first time in
+      your browser you have to click anywhere to start the game. Then it'll work as following :
+      <hr>
+      <b> Instructions & Functions:</b>
+      <br>
+      <u>level 1:</u> One of those color boxes will blink and after that within 0.5s you have to
+      memorize that colored block which just have been blinked. then just click on it.
+      <br> <u>level 2:</u> Same things are gonna happen here also but here within 0.5s you have to memorize the first
+      one
+      you have clicked and the 2nd one that just blinked. And then you are gonna click on them respectively.<br>
+      level 3: Each level has identical procedure except the increment of the memorization of more number of blocks
+      with the increment of levels gradually.
+      Thus in <u>level n</u>: you have to memorize the previous (n-1) clicks on of which colors' squares and that
+      particular
+      square's color just blinked in level n; Then click on all those colors' squares respectively otherwise If you do
+      any wrong sequence in order of your clicking colors' squares in any level of a particular session , then the game
+      will be over and your final level will be your final score for that session.
+      <br><button>Close</button></div>
+  </div>
+  <footer>
+    <p>Made by Subham Mandal</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
