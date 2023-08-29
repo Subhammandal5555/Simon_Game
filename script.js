@@ -81,6 +81,6 @@ help.addEventListener("click",function(){
 })
 let close=document.querySelector("button");
 close.addEventListener("click",function(){
- console.log("hjjj");
+ 
  about.classList.remove("help");
 })
